@@ -1,0 +1,80 @@
+.header-wrap{
+    opacity: .55;
+    margin: 0 auto;
+    width: 100%;
+    height: 105px;
+    background-color: #212121;
+}
+.h1{
+    font-size: 2em;
+    font-weight:400;
+}
+#site-name{
+    font-size:2em;
+}
+@media (max-width: 960px){
+#site-name {
+font-size: 1.55em;
+}
+.header-wrap{
+background-color:#474747;
+opacity: 1;
+}
+}
+@media (max-width: 720px){
+#site-name {
+font-size: 1.1em;
+}
+h3 {
+    font-size: 1.45em;
+    }
+}
+@media (max-width: 480px){
+#site-name {
+font-size: .75em;
+}
+
+}
+.container-fluid {
+padding-right:0;
+padding-left:0;
+margin-right:auto;
+margin-left:auto
+}
+
+h3 {
+font-family: 'Varela';
+font-style: normal;
+
+
+}
+@media (min-width: 960px){
+h3 {
+font-size: 1.55em;
+}
+}
+#footer-page{
+color:#fff;
+background:#212121
+}
+#footer-page a{
+color:#fff
+}
+#header-section{
+max-height:700px;
+}
+#welcome-link{
+color: #fff;line-height: 105px; 
+}
+#header-wrap-interior{
+height: 105px; line-height:105px ;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("FontFiles\Varela-Regular.ttf"), \\;
+  }
+ 
