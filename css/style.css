@@ -50,12 +50,13 @@ font-style: normal;
 }
 @media (min-width: 960px){
 h3 {
-font-size: 1.55em;
+font-size: 1.57em;
 }
 }
 #footer-page{
 color:#fff;
-background:#212121
+background:#212121;
+font-size:14px;
 }
 #footer-page a{
 color:#fff
