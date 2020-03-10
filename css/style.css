@@ -45,8 +45,13 @@ margin-left:auto
 h3 {
 font-family: 'Varela';
 font-style: normal;
-
-
+}
+hr{
+    border: 0;
+    height: 2px;
+    background: #e0e0e0;
+    margin: 1em auto;
+}
 }
 @media (min-width: 960px){
 h3 {
